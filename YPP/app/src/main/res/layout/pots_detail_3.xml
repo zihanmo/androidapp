@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorMenu"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/channelTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+
+            android:textAlignment="center"
+            android:layout_marginTop="5sp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/chattingquit"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@drawable/back"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20sp"
+            android:clickable="true"
+            android:longClickable="false"
+            android:tint="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="80sp"
+        android:layout_height="45sp"
+        android:layout_marginTop="290sp"
+        android:layout_marginLeft="10sp"
+        android:background="@drawable/border_activity_ss"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginTop="5sp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Replies"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginTop="20sp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50sp">
+
+        <RelativeLayout
+            android:id="@+id/activity1"
+            android:layout_width="match_parent"
+            android:layout_height="262sp"
+            android:padding="10sp"
+            android:background="@drawable/border_activity_l">
+
+            <TextView
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:background="@drawable/circle_1"
+                android:text="S"
+                android:textAlignment="center"
+                android:layout_marginTop="13sp"
+                android:layout_marginLeft="5sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="50sp"
+                android:text="Needing advice !!!!! FTM"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:text="I’m currently 34w and 6d pregnant and still don’t know where I want to live once the baby is here? My boyfriend wants us to live together and I do as well but my parents are against us living together since we aren’t married. His mom would let me move in with them but the thing is their house is very unkept and I would feel very uncomfortable living there. Not to mention his brother just had a baby a couple of months ago so having another baby already in the house would leave less room for our baby and his things. "
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="50sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270sp"
+                android:layout_marginTop="220sp"
+                android:text="10/10/2019"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3sp"
+        android:layout_marginTop="310sp"
+        android:background="@color/colorMenu"/>
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="310sp">
+
+        <LinearLayout
+            android:layout_width="3sp"
+            android:layout_height="300sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="50sp"
+            android:background="@color/colorMenu"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="300sp"
+            android:padding="10sp">
+
+            <TextView
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:background="@drawable/circle_1"
+                android:text="M"
+                android:textAlignment="center"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="23sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="70sp"
+                android:text="MamaEvangeline"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="50sp"
+                android:text="Oh man. This is actually similar to what happened to me. My husband’s parents house is a mess so I didn’t want to live there but we had to after we got married for My entire 3rd trimester. I was dying to move out but we couldn’t find a place. My mil wouldn’t have let me live there if we weren’t married (we are all Christians). My family lives very far away. Just 2 weeks before my daughter was born, we were approved to rent a house with my husband’s brother and his wife and their 3 kids. Could you maybe rent a place with your boyfriend’s brother?"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="250sp"
+                android:text="11/10/2019"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190sp"
+            android:padding="10sp"
+            android:layout_marginTop="260sp">
+
+            <TextView
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:background="@drawable/circle_1"
+                android:text="W"
+                android:textAlignment="center"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="23sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="70sp"
+                android:text="wichita217"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="50sp"
+                android:text="I think you should put yourself and the baby first. Staying with your parents in a clean and stable home would be your best option. Just remember that it is only TEMPORARY.  Once your boyfriend is able to establish a full time job with steady income take your time looking at rentals. Or continue to live apart or your parents religious wishes and work on saving money and building your credit to buy your own home together. My boyfriend and I started out with nothing, and a LOT of debt from his past relationship."
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="270sp"
+                android:text="11/10/2019"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Write a message"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:text="" />
+
+        <ImageButton
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:padding="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/ic_send_black_24dp"
+            android:onClick="sendMessage"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

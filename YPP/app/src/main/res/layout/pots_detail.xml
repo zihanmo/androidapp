@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorMenu"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/channelTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+
+            android:textAlignment="center"
+            android:layout_marginTop="5sp"
+            android:textColor="@android:color/black"
+            android:textSize="16sp" />
+
+        <ImageButton
+            android:id="@+id/chattingquit"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@drawable/back"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20sp"
+            android:clickable="true"
+            android:longClickable="false"
+            android:tint="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="80sp"
+        android:layout_height="45sp"
+        android:layout_marginTop="170sp"
+        android:layout_marginLeft="10sp"
+        android:background="@drawable/border_activity_ss"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginTop="5sp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Replies"
+            android:textStyle="bold"
+            android:textSize="13sp"
+            android:layout_marginTop="20sp"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="50sp">
+
+        <RelativeLayout
+            android:id="@+id/activity1"
+            android:layout_width="match_parent"
+            android:layout_height="142sp"
+            android:padding="10sp"
+            android:background="@drawable/border_activity_l">
+
+            <TextView
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:background="@drawable/circle_1"
+                android:text="S"
+                android:textAlignment="center"
+                android:layout_marginTop="13sp"
+                android:layout_marginLeft="5sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:layout_marginLeft="50sp"
+                android:text="Real Talk About Depression"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:text="Please share your stories! Our goal is to increase awareness and provide support through real and relatable stories."
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:layout_marginTop="40sp"
+                android:layout_marginLeft="50sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="270sp"
+                android:layout_marginTop="105sp"
+                android:text="10/10/2019"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="3sp"
+        android:layout_marginTop="190sp"
+        android:background="@color/colorMenu"/>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190sp">
+
+        <LinearLayout
+            android:layout_width="3sp"
+            android:layout_height="300sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginLeft="50sp"
+            android:background="@color/colorMenu"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="200sp"
+            android:padding="10sp">
+
+            <TextView
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:background="@drawable/circle_1"
+                android:text="A"
+                android:textAlignment="center"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="23sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="70sp"
+                android:text="Andy"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="50sp"
+                android:text="Here’s a moment of transparency.. I know as a wife and mom everyone expects you to be “You”after your baby is born but I’m here to tell you that it won’t be guaranteed.. My first born I had all the help and had an outlet for a peace of mind, but with my second born I suffered postpartum depression"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="160sp"
+                android:text="11/10/2019"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="190sp"
+            android:padding="10sp"
+            android:layout_marginTop="160sp">
+
+            <TextView
+                android:layout_width="35sp"
+                android:layout_height="35sp"
+                android:background="@drawable/circle_1"
+                android:text="C"
+                android:textAlignment="center"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="23sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30sp"
+                android:layout_marginLeft="70sp"
+                android:text="Cherry"
+                android:textColor="@android:color/black"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:layout_width="300sp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="50sp"
+                android:text="I’ve come here bc a lot of the women on my home board are nasty and I don’t feel like being attacked today. I don’t want to talk to people I know bc I don’t want them knowing this. There’s no way to make this short, so I’m just gonna go at it."
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70sp"
+                android:layout_marginTop="135sp"
+                android:text="11/10/2019"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true">
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:ems="10"
+            android:hint="Write a message"
+            android:inputType="text"
+            android:paddingHorizontal="10dp"
+            android:text="" />
+
+        <ImageButton
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:padding="20dp"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/ic_send_black_24dp"
+            android:onClick="sendMessage"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

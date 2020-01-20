@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@color/colorMenu"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:layout_weight="0"
+            android:text="Social Groups"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/addFriend"
+            android:layout_width="25sp"
+            android:layout_height="25sp"
+            android:background="@drawable/addd"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="20sp"
+            android:clickable="true"
+            android:longClickable="false"
+            android:tint="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@android:color/black"/>
+
+    <RelativeLayout
+        android:id="@+id/group1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="10sp"
+        android:background="@color/test1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT group"
+            android:layout_marginStart="15sp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3/3"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70sp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:background="@android:drawable/arrow_down_float"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15sp"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@android:color/black"/>
+
+    <RelativeLayout
+        android:id="@+id/group2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="10sp"
+        android:background="@color/test1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friends"
+            android:layout_marginStart="15sp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:id="@+id/numbers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/0"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70sp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:background="@android:drawable/arrow_down_float"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15sp"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1sp"
+        android:background="@android:color/black"/>
+
+    <RelativeLayout
+        android:id="@+id/group3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:padding="10sp"
+        android:background="@color/test1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Project Groups"
+            android:layout_marginStart="15sp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="0/0"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="70sp"
+            android:layout_centerVertical="true"
+            android:textColor="@android:color/black"/>
+
+        <ImageView
+            android:layout_width="20sp"
+            android:layout_height="20sp"
+            android:background="@android:drawable/arrow_down_float"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="15sp"/>
+
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/list3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorMenu"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11sp"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:text="Help List"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <ImageButton
+            android:id="@+id/addActivity"
+            android:layout_width="25dp"
+            android:layout_height="29dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="17sp"
+            android:layout_marginRight="20sp"
+            android:background="@drawable/buttadd"
+            android:clickable="true"
+            android:longClickable="false"
+            android:tint="@color/colorWhite" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="65sp">
+
+        <RelativeLayout
+            android:id="@+id/activity1"
+            android:layout_width="205sp"
+            android:layout_height="200sp"
+            android:background="@drawable/border_activity_l"
+            android:padding="10sp">
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="match_parent"
+                android:layout_height="90sp"
+                android:background="@mipmap/a1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="95sp"
+                android:text="Parenting Skill Lv.1"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="125sp"
+                android:text="121 Water st. Toowong"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="145sp"
+                android:text="25/10/2019 10 am"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="165sp"
+                android:text="1.1 Km away from you"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="55sp"
+                android:layout_height="45sp"
+                android:layout_marginLeft="130sp"
+                android:layout_marginTop="135sp"
+                android:background="@drawable/border_activity_s">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="5sp"
+                    android:text="8"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="20sp"
+                    android:text="Joined"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/activity2"
+            android:layout_width="205sp"
+            android:layout_height="200sp"
+            android:padding="10sp"
+            android:background="@drawable/border_activity_l">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="90sp"
+                android:background="@mipmap/img4"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Family Gathering"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="95sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="161 Grey st. SouthBank"
+                android:textStyle="bold"
+                android:textSize="11sp"
+                android:layout_marginTop="125sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="28/10/2019 10 am"
+                android:textStyle="bold"
+                android:textSize="11sp"
+                android:layout_marginTop="145sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2.1 Km away from you"
+                android:textStyle="bold"
+                android:textSize="11sp"
+                android:layout_marginTop="165sp"/>
+
+            <RelativeLayout
+                android:layout_width="55sp"
+                android:layout_height="45sp"
+                android:layout_marginTop="135sp"
+                android:layout_marginLeft="130sp"
+                android:background="@drawable/border_activity_s">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="12"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5sp"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joined"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="265sp">
+
+        <RelativeLayout
+            android:id="@+id/activity3"
+            android:layout_width="205sp"
+            android:layout_height="200sp"
+            android:padding="10sp"
+            android:background="@drawable/border_activity_l">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="90sp"
+                android:background="@mipmap/img5"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="King's Park BBQ"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginTop="95sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 James st. SpringHill"
+                android:textStyle="bold"
+                android:textSize="11sp"
+                android:layout_marginTop="125sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1/11/2019 1 pm"
+                android:textStyle="bold"
+                android:textSize="11sp"
+                android:layout_marginTop="145sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 Km away from you"
+                android:textStyle="bold"
+                android:textSize="11sp"
+                android:layout_marginTop="165sp"/>
+
+            <RelativeLayout
+                android:layout_width="55sp"
+                android:layout_height="45sp"
+                android:layout_marginTop="135sp"
+                android:layout_marginLeft="130sp"
+                android:background="@drawable/border_activity_s">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:layout_marginTop="5sp"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Joined"
+                    android:textStyle="bold"
+                    android:textSize="13sp"
+                    android:layout_marginTop="20sp"
+                    android:layout_centerHorizontal="true"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/acdetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhiteT"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/backg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <RelativeLayout
+        android:id="@+id/container1"
+        android:layout_width="350sp"
+        android:layout_height="400sp"
+        android:layout_centerInParent="true"
+        android:background="@color/test1">
+
+        <ImageView
+            android:layout_width="300sp"
+            android:layout_height="150sp"
+            android:background="@mipmap/a1"
+            android:layout_marginTop="30sp"
+            android:layout_centerHorizontal="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Parenting Skill Lv.1"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="190sp"
+            android:layout_marginLeft="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="121 Water st. Toowong"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:layout_marginTop="220sp"
+            android:layout_marginLeft="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="25/10/2019 10 am"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:layout_marginTop="240sp"
+            android:layout_marginLeft="25sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1.1 Km away from you"
+            android:textStyle="bold"
+            android:textSize="11sp"
+            android:layout_marginTop="260sp"
+            android:layout_marginLeft="25sp"/>
+
+        <TextView
+            android:layout_width="300sp"
+            android:layout_height="wrap_content"
+            android:text="This event provides you a number of basic parenting skills such as how to read your baby's mind, daily nutrition they need."
+            android:textSize="14sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="280sp"
+            android:layout_marginLeft="25sp"/>
+
+        <Button
+            android:id="@+id/buttonjoin"
+            android:layout_width="70sp"
+            android:layout_height="40sp"
+            android:text="Help"
+            android:contextClickable="true"
+            android:background="@color/colorMenu"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="10sp"/>
+
+        <ImageButton
+            android:id="@+id/closejoin"
+            android:layout_width="30sp"
+            android:layout_height="30sp"
+            android:background="@android:drawable/ic_menu_close_clear_cancel"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="5sp"/>
+
+        <RelativeLayout
+            android:layout_width="55sp"
+            android:layout_height="45sp"
+            android:layout_marginTop="230sp"
+            android:layout_marginLeft="270sp"
+            android:background="@drawable/border_activity_s">
+
+            <TextView
+                android:id="@+id/joinnumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:layout_marginTop="5sp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Joined"
+                android:textStyle="bold"
+                android:textSize="13sp"
+                android:layout_marginTop="20sp"
+                android:layout_centerHorizontal="true"/>
+
+        </RelativeLayout>
+
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
